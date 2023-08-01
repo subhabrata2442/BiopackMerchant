@@ -1,0 +1,216 @@
+import {StyleSheet} from 'react-native';
+import {colors} from '../../constants';
+
+const styles = StyleSheet.create({
+  container: {
+    width: '100%',
+    flexDirecion: 'row',
+    backgroundColor: colors.light,
+    justifyContent: 'flex-start',
+    addingBottom: 0,
+    flex: 1,
+  },
+  topBarContainer: {
+    width: '100%',
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    padding: 20,
+  },
+  toBarText: {
+    fontSize: 15,
+    fontWeight: '600',
+  },
+  bodyContainer: {
+    flex: 1,
+    paddingLeft: 20,
+    paddingRight: 20,
+  },
+  orderSummaryContainer: {
+    backgroundColor: colors.white,
+    borderRadius: 10,
+    padding: 10,
+    maxHeight: 220,
+  },
+  totalOrderInfoContainer: {
+    borderRadius: 10,
+    padding: 10,
+    backgroundColor: colors.white,
+  },
+  primaryText: {
+    marginBottom: 5,
+    marginTop: 5,
+    fontSize: 16,
+    fontWeight: 'bold',
+    marginBottom: 5,
+  },
+  list: {
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    backgroundColor: colors.white,
+    borderBottomWidth: 1,
+    borderBottomColor: colors.light,
+    padding: 10,
+  },
+  primaryTextSm: {
+    fontSize: 15,
+    fontWeight: 'bold',
+    color: colors.primary,
+  },
+  secondaryTextSm: {
+    fontSize: 15,
+    fontWeight: 'bold',
+  },
+  listContainer: {
+    backgroundColor: colors.white,
+    borderRadius: 10,
+    padding: 10,
+  },
+  buttomContainer: {
+    width: '100%',
+    padding: 20,
+    paddingLeft: 30,
+    paddingRight: 30,
+  },
+  emptyView: {
+    width: '100%',
+    height: 20,
+  },
+  modelBody: {
+    flex: 1,
+    display: 'flex',
+    flexL: 'column',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  modelAddressContainer: {
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center',
+    padding: 20,
+    width: '100%',
+    height: '100%',
+    backgroundColor: 'rgba(255,255,255,1)',
+    elevation: 3,
+  },
+  modelText: {
+    fontSize: 20,
+    fontWeight: 'bold',
+    color: colors.primary,
+  },
+  inputMainContainer: {
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+  },
+  inputContainer1: {
+    width: '50%',
+    //left: -1,
+  },
+  inputContainer2: {
+    width: '50%',
+    //right: -5,
+  },
+  btnMainContainer: {
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    paddingTop: 10,
+    //alignItems: 'center',
+  },
+  btnContainer1: {
+    position: 'relative',
+    left: -5,
+    width: '50%',
+  },
+  btnContainer: {
+    position: 'relative',
+    right: -5,
+    width: '50%',
+  },
+
+  paymentModalContainer: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#F5FCFF',
+    height: '65%',
+    width: '100%',
+    position: 'absolute',
+    bottom: -20,
+    borderTopLeftRadius: 10,
+    borderTopRightRadius: 10,
+    padding: 20,
+  },
+  paymentModalImageContainer: {
+    marginTop: -130,
+  },
+  paymentModalImage: {
+    marginTop: 25,
+    marginBottom: 10,
+    width: 150,
+    height: 200,
+  },
+  paymentModalHeaderContainer: {
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginBottom: 20,
+  },
+  paymentModalHeadertext: {
+    paddingTop: 5,
+    textAlign: 'center',
+    fontSize: 20,
+    fontWeight: 'bold',
+    color: colors.dark,
+  },
+  paymentModalBody: {},
+  paymentModalBodyText: {
+    //paddingTop: 10,
+    textAlign: 'left',
+    fontSize: 14,
+    paddingLeft: 10,
+    paddingRight: 10,
+    color: colors.dark,
+    fontWeight: 500,
+  },
+  paymentModalBodyTextContainer: {
+    display: 'flex',
+    flexDirection: 'row',
+    marginBottom: 10,
+  },
+  paymentModalFooter: {
+    borderTopWidth: 1,
+    borderColor: '#000',
+    borderStyle: 'dashed',
+    paddingTop: 20,
+  },
+  paymentModalFooterTextContainer: {
+    marginTop: 20,
+  },
+  paymentModalFooterText: {
+    //paddingTop: 5,
+    textAlign: 'left',
+    fontSize: 17,
+    paddingLeft: 25,
+  },
+  topModal: {
+    flex: 1 / 2,
+  },
+  modal: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#F5FCFF',
+    height: '60%',
+    width: '100%',
+    position: 'absolute',
+    bottom: -20,
+    borderRadius: 10,
+  },
+});
+
+export default styles;
